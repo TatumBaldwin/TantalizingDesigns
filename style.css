@@ -1,0 +1,321 @@
+body {
+    background-color: rgb(201, 185, 185, .4);
+    font-family: 'Dancing Script', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: grey;
+}
+
+
+.navbar {
+    display: flex;
+    z-index: 1;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content: center;
+    /* position: absolute; */
+    margin: 0 auto;
+}
+
+.navbutton {
+    max-height: 30px;    
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 25px;
+    margin-top: 30px;
+    padding: 0px 40px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 2px 2px rgb(130, 96, 102);
+}
+
+.logo {
+    width: 5em;
+    flex-shrink: 3;
+}
+
+.ham-logo {
+    visibility: hidden;
+}
+
+.floating_image {
+    position: relative;
+    top: -100px;
+    left: -8px;
+    min-width: 100vw;
+    z-index: -1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -100px;
+    width: 50%;
+}
+
+#about_me {
+    display: flex;
+    align-items: center;
+}
+
+.my_name {
+    border-bottom: 1px solid rgb(192, 142, 151);
+    margin: 40px 20px;
+    color: rgb(3, 3, 3);
+    text-shadow: 2px 2px rgb(192, 142, 151);
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.intro-p {
+    text-indent: 1in;
+    margin-top: -20px;
+    margin-left: 20px;
+    font-family: serif;
+    font-size: 1.5em;
+}
+
+.education_paragraph {
+    font-size: 1.5em;
+    text-indent: 1in;
+    font-family: serif;
+    margin-left: 20px;
+}
+
+.sofware_logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.soft-logo {
+    width: 100px;
+    margin-left: 200px;
+}
+
+.my_work_button {
+    margin-left: 20px;
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgb(192, 142, 151);
+    color: white;
+    border: none;
+    filter: drop-shadow(5px 5px 1px rgba(0, 0, 0, 0.25));
+    
+}
+
+.my-work-title {
+    padding: 10px 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    text-align: center;
+    border-bottom: 1px solid rgb(192, 142, 151);
+    border-top: 1px solid rgb(192, 142, 151);
+    color: rgb(0, 0, 0);;
+    text-shadow: 2px 2px rgb(192, 142, 151);
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+#my_work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgb(192, 142, 151);
+    margin: 30px;
+    height: 500px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 4px;
+    padding: 0px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+
+.card-img-top {
+    width: 18rem;
+    overflow: hidden;
+    border: 3px solid rgb;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ .footer-col li{
+	list-style: none;
+}
+.footer{
+	background-color: rgb(192, 142, 151);
+    padding: 5px 5px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #fefefe;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #ffffff;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #ffffff;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+
+
+            /*hide ham for larger browsers*/
+            
+@media only screen and (min-width:437px) {
+    #hamnav, #hamitems {
+        display: none;
+    }
+}
+
+
+            /*Adjust image and hide logo for smaller browser*/
+
+@media only screen and (max-width: 761px) {
+
+    .navbutton {
+        padding: 0px 10px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .floating_image {
+        top: -100px;
+    }
+}
+
+
+
+            /* show hamburger */
+@media screen and (max-width: 768px){
+    /* (A) BREAK INTO VERTICAL MENU */
+    
+    
+    #hamnav {
+     position: absolute;
+    }
+
+    #hamitems a {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+      padding: 10px;
+      text-decoration: none;
+      color: white;
+      background: rgb(201, 185, 185, .4);
+    }
+   
+    /* (B) SHOW HAMBURGER ICON */
+    #hamnav label { 
+      display: inline-block; 
+      color: white;
+      background:  transparent;
+      font-style: normal;
+      font-size: 1.2em;
+      padding: 10px;
+    }
+  
+    /* (C) TOGGLE SHOW/HIDE MENU */
+    #hamitems { display: none; }
+    #hamnav input:checked ~ #hamitems { display: block; }
+  }
+    
+             /* hide nav*/
+
+@media only screen and (max-width: 436px) {
+    .navbar {
+        display: none;
+    }
+
+}
+

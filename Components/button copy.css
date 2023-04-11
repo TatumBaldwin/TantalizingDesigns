@@ -1,0 +1,38 @@
+
+/* This is my main button style, this is where you can change
+ color, shadow, size and other general style things. */
+
+.button {
+    height: 50px;
+    min-width: 50%;
+    background-color: rgb(237, 159, 226);
+    box-shadow: 2px 2px;
+}
+
+
+
+/* This is the button link where you can change the font and styles assosiated with fonts */
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4em;
+}
+
+
+
+/* This is the buttons hover state, where the color changes */
+
+.button:hover {
+    background-color: rgb(185, 123, 176);
+}
+
+
+
+/* This is the buttons 'clicked' state, here I removed the shadow to make the button appear 3D */
+
+.button:active {
+    background-color: rgb(185, 123, 176);
+    box-shadow: 0px 0px;
+}
